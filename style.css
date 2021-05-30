@@ -1,0 +1,50 @@
+body{
+  overflow: hidden;
+  margin: 0px;
+}
+#score{
+  font-size: 48px;
+  color: #66ff66;
+  position: absolute;
+  text-align: center;
+  width: 402px;
+  height: 100px;
+  top: 18%;
+  left: 36%;
+}
+#hits{
+  font-size: 70px;
+  color: #66ff66;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left:100px;
+}
+#overlay{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+#btn{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  font-size: 38px;
+  cursor: pointer;
+}
+#instructions{
+  font-family: sans-serif;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  margin: 0px;
+  color: white;
+}
+h3{
+  margin: 5px;
+}
